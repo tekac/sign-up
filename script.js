@@ -8,10 +8,14 @@ const check = () => {
     password.classList.add("error");
     confPassword.classList.add("error");
     passCheck.classList.remove("hidden");
-  } else if (password.value === confPassword.value) {
+    password.classList.remove("valid");
+    confPassword.classList.remove("valid");
+  } else {
+    password.classList.remove("error");
+    confPassword.classList.remove("error");
+    passCheck.classList.add("hidden");
     password.classList.add("valid");
     confPassword.classList.add("valid");
-    passCheck.classList.add("hidden");
   }
 };
 

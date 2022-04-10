@@ -141,6 +141,15 @@ input:focus {
   border: none;
   color: white;
   margin-bottom: 1.5rem;
+  transition: 0.3s;
+}
+
+.create:hover {
+  transform: scale(1.1);
+}
+
+.create:active {
+  transform: scale(1);
 }
 
 .create-account {
