@@ -39,7 +39,7 @@ label {
 }
 
 input {
-  padding: 0.2rem;
+  padding: 0.2rem 0.4rem;
   border-radius: 2px;
   border: 1px solid #e5e7eb;
   font-size: 0.9rem;
