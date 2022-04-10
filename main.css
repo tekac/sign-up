@@ -117,6 +117,23 @@ input:focus {
   width: 50%;
 }
 
+.hidden {
+  opacity: 0;
+}
+
+.passCheck {
+  font-size: 0.7rem;
+  color: red;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.valid {
+  border: 1px solid green;
+}
+
 .create {
   background-color: #596d48;
   padding: 0.6rem 2rem;

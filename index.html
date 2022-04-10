@@ -50,11 +50,12 @@
               </div>
               <div>
                 <label for="password">Password</label>
-                <input type="password" id="password" />
+                <input type="password" id="password" onkeyup="check();" />
+                <span class="passCheck hidden">* Passwords do not match</span>
               </div>
               <div>
                 <label for="confPassword">Confirm Password</label>
-                <input type="password" id="confPassword" />
+                <input type="password" id="confPassword" onkeyup="check();" />
               </div>
             </div>
           </form>
